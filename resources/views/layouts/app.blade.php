@@ -101,9 +101,9 @@
                         </li> 
                         @endcan
 
-                        @can('projects.index')
-                        <li class="{{ setActive('/projects') }}">
-                            <a class="nav-link" href="{{ route('projects.index') }}">
+                        @can('customers.index')
+                        <li class="{{ setActive('/customers') }}">
+                            <a class="nav-link" href="{{ route('customers.index') }}">
                                 <i class="fas fa-user-tie"></i>
                                 <span>Customers</span>
                             </a>
